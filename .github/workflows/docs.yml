@@ -45,7 +45,7 @@ jobs:
 
       # run build script create file CNAME
       - name: Create file CNAME
-        run: echo 'ceruttimaicon.js.org' > CNAME
+        run: echo 'ceruttimaicon.js.org' > docs/.vuepress/dist/CNAME
 
       # please check out the docs of the workflow for more details
       # @see https://github.com/crazy-max/ghaction-github-pages
