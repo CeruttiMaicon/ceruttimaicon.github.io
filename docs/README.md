@@ -1,8 +1,14 @@
 ---
 home: true
-heroImage: /images/perfil.jpeg
-actionText: Documentações →
-actionLink: /guide/
+heroText: Maicon Cerutti
+tagline: "Minhas competências, anotações e documentações :)"
+heroImage: /images/perfil.jpg
+title: Maicon Cerutti
+navbar: true
+actions:
+  - text: Documentações
+    link: /guide/
+    type: primary
 features:
   - title: Ant Design
     details: O Vue Ant Design é um sistema de design de UI de classe empresarial para aplicativos de desktop e fornece um conjunto de componentes Vue de alta qualidade prontos para uso. Tenho experiência de 8 meses com essa ferramenta.
@@ -22,5 +28,5 @@ features:
     details: Laradock é um ambiente de desenvolvimento PHP completo baseado no Docker. Criado com o proposito de criar ambientes de desenvolvimento rápidos e fáceis para o Laravel. Mas também suporta outros frameworks PHP.
   - title: Vuepress
     details: O VuePress gera um  HTML estático para criar um sistema simples de documentação, baseado em arquivos de markdown e utilizando da tecnologia do VueJS. Ele é simples prático e rápido. É com essa tecnologia que este site está sendo desenvolvido.
-footer: MIT Licensed | Maicon Cerutti 2019 - 2020
+footer: MIT Licensed | Maicon Cerutti 2019 - 2022
 ---

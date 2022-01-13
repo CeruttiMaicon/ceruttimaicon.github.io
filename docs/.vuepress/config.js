@@ -1,5 +1,5 @@
 module.exports = {
-  theme: 'yuu',
+  lang: 'pt-br',
   description: "Minhas competências, anotações e documentações :)",
   title: "Maicon Cerutti",
   head: [
@@ -18,17 +18,13 @@ module.exports = {
     ],
   ],
   themeConfig: {
-    yuu: {
-      disableThemeIgnore: true,
-      colorThemes: [],
-      labels: {
-        darkTheme: 'Tema Dark', // Default is "Enable Dark Theme?"
-      },
-    },
-    logo: "/images/perfil.jpeg",
-    nav: [{
+    logo: "/images/perfil.jpg",
+    darkMode: true,
+    searching: true,
+    navbar: [
+      {
         text: "Guide",
-        link: "/guide/"
+        link: "/guide/README.md"
       },
       {
         text: "Linkedin",
@@ -39,20 +35,21 @@ module.exports = {
         link: "https://github.com/CeruttiMaicon",
       },
     ],
-    sidebar: [{
-        title: "Guide",
+    sidebar: [
+      {
+        text: "Guide",
         children: ["/guide/"],
       },
       {
-        title: "Postgres",
+        text: "Postgres",
         children: ["/postgres/"],
       },
       {
-        title: "Python",
+        text: "Python",
         children: ["/python/"],
       },
       {
-        title: "Docker",
+        text: "Docker",
         children: [
           "/docker-laradock/",
           "/docker-install/",
@@ -61,23 +58,23 @@ module.exports = {
         ],
       },
       {
-        title: "Sistemas Operacionais",
+        text: "Sistemas Operacionais",
         children: [{
-            title: "Linux Mint",
+            text: "Linux Mint",
             children: ["/linux-mint-tema-mac/"]
           },
           {
-            title: "Linux Ubuntu",
+            text: "Linux Ubuntu",
             children: ["/linux-ubuntu-tema-mac/"]
           },
         ],
       },
       {
-        title: "Amazon",
+        text: "Amazon",
         children: ["/amazon/"],
       },
       {
-        title: "Laravel",
+        text: "Laravel",
         children: [
           "/laravel-uploud-de-imagem/",
           "/laravel-uploud-de-anexo/",
@@ -89,26 +86,42 @@ module.exports = {
         ],
       },
       {
-        title: "Lumen",
+        text: "Lumen",
         children: ["/lumen-JWT-Authenticated-API-with-lumen/"],
       },
       {
-        title: "Vue.JS",
+        text: "Vue.JS",
         children: ["/vue-js/"],
       },
 
       {
-        title: "GIT",
+        text: "GIT",
         children: ["/git/"],
       },
       {
-        title: "Zero Absoluto",
+        text: "Zero Absoluto",
         children: ["/install-programns/"],
       },
       {
-        title: "SonarQuebe",
+        text: "SonarQuebe",
         children: ["/sonarqube/", "/sonarqube-utilizacao-rapida/"],
       },
     ],
   },
+  plugins: [
+    [
+      '@vuepress/plugin-search',
+      {
+        locales: {
+          '/': {
+            placeholder: 'Search',
+            // allow searching the `tags` frontmatter
+            maxSuggestions: 10,
+            hotKeys: ['s', '/'],
+            isSearchable: (page) => page.path !== '/',
+          }
+        },
+      },
+    ],
+  ],
 };
