@@ -42,10 +42,10 @@ jobs:
       # run build script
       - name: Build VuePress site
         run: yarn docs:build
-      
-      # run build script
+
+      # run build script create file CNAME
       - name: Create file CNAME
-        run: echo 'ceruttimaicon.js.org' > CNAME
+        run: echo 'ceruttimaicon.js.org' > docs/.vuepress/dist/CNAME
 
       # please check out the docs of the workflow for more details
       # @see https://github.com/crazy-max/ghaction-github-pages
@@ -59,4 +59,3 @@ jobs:
         env:
           # @see https://docs.github.com/en/actions/reference/authentication-in-a-workflow#about-the-github_token-secret
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      
