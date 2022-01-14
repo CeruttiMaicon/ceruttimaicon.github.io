@@ -23,8 +23,8 @@ module.exports = {
     searching: true,
     navbar: [
       {
-        text: "Guide",
-        link: "/guide/README.md"
+        text: "Inicio",
+        link: "/inicio/README.md"
       },
       {
         text: "Linkedin",
@@ -37,8 +37,8 @@ module.exports = {
     ],
     sidebar: [
       {
-        text: "Guide",
-        children: ["/guide/"],
+        text: "Inicio",
+        children: ["/inicio/"],
       },
       {
         text: "Postgres",

@@ -6,7 +6,7 @@ heroImage: /images/perfil.jpg
 title: Maicon Cerutti
 actions:
   - text: Documentações
-    link: /guide/
+    link: /inicio/
     type: primary
   - text: Javascript
     link: /apresentacao/javascript/
