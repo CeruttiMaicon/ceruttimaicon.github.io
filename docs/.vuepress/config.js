@@ -61,11 +61,11 @@ module.exports = {
         text: "Sistemas Operacionais",
         children: [{
             text: "Linux Mint",
-            children: ["/linux-mint-tema-mac/"]
+            children: ["/linux/mint-tema-mac/"]
           },
           {
             text: "Linux Ubuntu",
-            children: ["/linux-ubuntu-tema-mac/"]
+            children: ["/linux/ubuntu-tema-mac/"]
           },
         ],
       },
