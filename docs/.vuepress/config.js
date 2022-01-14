@@ -76,13 +76,13 @@ module.exports = {
       {
         text: "Laravel",
         children: [
-          "/laravel-uploud-de-imagem/",
-          "/laravel-uploud-de-anexo/",
-          "/laravel-datatable-server-side/",
-          "/laravel-dompdf/",
-          "/laravel-homestad/",
-          "/laravel-relationship/",
-          "/laravel-vue-validation-for-laravel/",
+          "/laravel/uploud-de-imagem/",
+          "/laravel/uploud-de-anexo/",
+          "/laravel/datatable-server-side/",
+          "/laravel/dompdf/",
+          "/laravel/laravel-homestad/",
+          "/laravel/relationship/",
+          "/laravel/laravel-vue-validation-for-laravel/",
         ],
       },
       {
