@@ -51,10 +51,10 @@ module.exports = {
       {
         text: "Docker",
         children: [
-          "/docker-laradock/",
-          "/docker-install/",
-          "/docker-comandos/",
-          "/docker-compose/",
+          "/docker/laradock/",
+          "/docker/install/",
+          "/docker/comandos/",
+          "/docker/docker-compose/",
         ],
       },
       {

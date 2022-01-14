@@ -9,13 +9,13 @@ actions:
     link: /inicio/
     type: primary
   - text: Javascript
-    link: /apresentacao/javascript/
+    link: /portfolio/javascript/
     type: secondary
   - text: PHP
-    link: /apresentacao/php/
+    link: /portfolio/php/
     type: secondary
   - text: Python
-    link: /apresentacao/python/
+    link: /portfolio/python/
     type: secondary
 features:
   - title: Javascript

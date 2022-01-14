@@ -2,7 +2,7 @@
 home: true
 heroText: Javascript
 tagline: "Minha experiência"
-heroImage: /images/apresentacao/javascript.png
+heroImage: /images/portfolio/javascript.png
 title: Maicon Cerutti
 actions:
   - text: Voltar

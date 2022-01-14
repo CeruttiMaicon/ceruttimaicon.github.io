@@ -2,7 +2,7 @@
 home: true
 heroText: PHP
 tagline: "Minha experiência"
-heroImage: /images/apresentacao/php.png
+heroImage: /images/portfolio/php.png
 title: Maicon Cerutti
 actions:
   - text: Voltar

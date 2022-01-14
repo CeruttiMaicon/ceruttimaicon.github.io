@@ -2,7 +2,7 @@
 home: true
 heroText: Python
 tagline: "Minha experiência"
-heroImage: /images/apresentacao/python.png
+heroImage: /images/portfolio/python.png
 title: Maicon Cerutti
 actions:
   - text: Voltar
