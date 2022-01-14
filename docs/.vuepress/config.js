@@ -23,8 +23,23 @@ module.exports = {
     searching: true,
     navbar: [
       {
-        text: "Guide",
-        link: "/guide/README.md"
+        text: 'Documentações',
+        children: [
+          '/docs/amazon', 
+          '/docs/docker',
+          '/docs/git',
+          '/docs/laravel',
+          '/docs/linux',
+          '/docs/lumen',
+          '/docs/postgres',
+          '/docs/python',
+          '/docs/sonarqube',
+          '/docs/vue-js',
+        ],
+      },
+      {
+        text: "Sobre",
+        link: "/sobre/README.md"
       },
       {
         text: "Linkedin",
@@ -37,74 +52,69 @@ module.exports = {
     ],
     sidebar: [
       {
-        text: "Guide",
-        children: ["/guide/"],
-      },
-      {
         text: "Postgres",
-        children: ["/postgres/"],
+        children: ["/docs/postgres/"],
       },
       {
         text: "Python",
-        children: ["/python/"],
+        children: ["/docs/python/"],
       },
       {
         text: "Docker",
         children: [
-          "/docker-laradock/",
-          "/docker-install/",
-          "/docker-comandos/",
-          "/docker-compose/",
+          "/docs/docker/laradock/",
+          "/docs/docker/install/",
+          "/docs/docker/docker-compose/",
         ],
       },
       {
-        text: "Sistemas Operacionais",
+        text: "Linux",
         children: [{
             text: "Linux Mint",
-            children: ["/linux-mint-tema-mac/"]
+            children: ["/docs/linux/mint-tema-mac/"]
           },
           {
             text: "Linux Ubuntu",
-            children: ["/linux-ubuntu-tema-mac/"]
+            children: ["/docs/linux/ubuntu-tema-mac/"]
+          },
+          {
+            text: "Zero Absoluto",
+            children: ["/docs/linux/install-programns/"]
           },
         ],
       },
       {
         text: "Amazon",
-        children: ["/amazon/"],
+        children: ["/docs/amazon/"],
       },
       {
         text: "Laravel",
         children: [
-          "/laravel-uploud-de-imagem/",
-          "/laravel-uploud-de-anexo/",
-          "/laravel-datatable-server-side/",
-          "/laravel-dompdf/",
-          "/laravel-homestad/",
-          "/laravel-relationship/",
-          "/laravel-vue-validation-for-laravel/",
+          "/docs/laravel/uploud-de-imagem/",
+          "/docs/laravel/uploud-de-anexo/",
+          "/docs/laravel/datatable-server-side/",
+          "/docs/laravel/dompdf/",
+          "/docs/laravel/laravel-homestad/",
+          "/docs/laravel/relationship/",
+          "/docs/laravel/laravel-vue-validation-for-laravel/",
         ],
       },
       {
         text: "Lumen",
-        children: ["/lumen-JWT-Authenticated-API-with-lumen/"],
+        children: ["/docs/lumen/JWT-Authenticated-API-with-lumen/"],
       },
       {
         text: "Vue.JS",
-        children: ["/vue-js/"],
+        children: ["/docs/vue-js/"],
       },
 
       {
         text: "GIT",
-        children: ["/git/"],
-      },
-      {
-        text: "Zero Absoluto",
-        children: ["/install-programns/"],
+        children: ["/docs/git/"],
       },
       {
         text: "SonarQuebe",
-        children: ["/sonarqube/", "/sonarqube-utilizacao-rapida/"],
+        children: ["/docs/sonarqube/instalacao-inicial/", "/docs/sonarqube/utilizacao-rapida/"],
       },
     ],
   },
