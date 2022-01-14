@@ -1,4 +1,4 @@
-# Sonarqube
+# Sonarqube - Instalação inicial
 
 ## Instalação projeto
 

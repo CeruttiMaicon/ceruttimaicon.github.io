@@ -104,7 +104,7 @@ module.exports = {
       },
       {
         text: "SonarQuebe",
-        children: ["/sonarqube/", "/sonarqube-utilizacao-rapida/"],
+        children: ["/sonarqube/instalacao-inicial", "/sonarqube/utilizacao-rapida/"],
       },
     ],
   },
