@@ -3,19 +3,16 @@ home: true
 heroText: Maicon Cerutti
 tagline: "Minhas competências, anotações e documentações :)"
 heroImage: /images/perfil.jpg
-title: Maicon Cerutti
+title: Portfólio
 actions:
-  - text: Documentações
-    link: /guide/
-    type: primary
   - text: Javascript
-    link: /apresentacao/javascript/
+    link: /portfolio/javascript/
     type: secondary
   - text: PHP
-    link: /apresentacao/php/
-    type: secondary
+    link: /portfolio/php/
+    type: primary
   - text: Python
-    link: /apresentacao/python/
+    link: /portfolio/python/
     type: secondary
 features:
   - title: Javascript
