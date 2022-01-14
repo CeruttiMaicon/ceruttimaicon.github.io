@@ -87,7 +87,7 @@ module.exports = {
       },
       {
         text: "Lumen",
-        children: ["/lumen-JWT-Authenticated-API-with-lumen/"],
+        children: ["/lumen/JWT-Authenticated-API-with-lumen/"],
       },
       {
         text: "Vue.JS",
