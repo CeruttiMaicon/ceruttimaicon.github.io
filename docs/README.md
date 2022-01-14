@@ -5,18 +5,15 @@ tagline: "Minhas competências, anotações e documentações :)"
 heroImage: /images/perfil.jpg
 title: Maicon Cerutti
 actions:
-  - text: Documentações
-    link: /inicio/
-    type: primary
   - text: Javascript
     link: /portfolio/javascript/
-    type: secondary
+    type: primary
   - text: PHP
     link: /portfolio/php/
     type: secondary
   - text: Python
     link: /portfolio/python/
-    type: secondary
+    type: primary
 features:
   - title: Javascript
     details: JavaScript é uma linguagem de programação de alto-nível, que fortemente utilizo em desenvolvimento para web.
