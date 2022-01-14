@@ -23,8 +23,23 @@ module.exports = {
     searching: true,
     navbar: [
       {
-        text: "Inicio",
-        link: "/inicio/README.md"
+        text: 'Documentações',
+        children: [
+          '/docs/amazon', 
+          '/docs/docker',
+          '/docs/git',
+          '/docs/laravel',
+          '/docs/linux',
+          '/docs/lumen',
+          '/docs/postgres',
+          '/docs/python',
+          '/docs/sonarqube',
+          '/docs/vue-js',
+        ],
+      },
+      {
+        text: "Sobre",
+        link: "/sobre/README.md"
       },
       {
         text: "Linkedin",
@@ -33,6 +48,73 @@ module.exports = {
       {
         text: "GitHub",
         link: "https://github.com/CeruttiMaicon",
+      },
+    ],
+    sidebar: [
+      {
+        text: "Postgres",
+        children: ["/docs/postgres/"],
+      },
+      {
+        text: "Python",
+        children: ["/docs/python/"],
+      },
+      {
+        text: "Docker",
+        children: [
+          "/docs/docker/laradock/",
+          "/docs/docker/install/",
+          "/docs/docker/docker-compose/",
+        ],
+      },
+      {
+        text: "Linux",
+        children: [{
+            text: "Linux Mint",
+            children: ["/docs/linux/mint-tema-mac/"]
+          },
+          {
+            text: "Linux Ubuntu",
+            children: ["/docs/linux/ubuntu-tema-mac/"]
+          },
+          {
+            text: "Zero Absoluto",
+            children: ["/docs/linux/install-programns/"]
+          },
+        ],
+      },
+      {
+        text: "Amazon",
+        children: ["/docs/amazon/"],
+      },
+      {
+        text: "Laravel",
+        children: [
+          "/docs/laravel/uploud-de-imagem/",
+          "/docs/laravel/uploud-de-anexo/",
+          "/docs/laravel/datatable-server-side/",
+          "/docs/laravel/dompdf/",
+          "/docs/laravel/laravel-homestad/",
+          "/docs/laravel/relationship/",
+          "/docs/laravel/laravel-vue-validation-for-laravel/",
+        ],
+      },
+      {
+        text: "Lumen",
+        children: ["/docs/lumen/JWT-Authenticated-API-with-lumen/"],
+      },
+      {
+        text: "Vue.JS",
+        children: ["/docs/vue-js/"],
+      },
+
+      {
+        text: "GIT",
+        children: ["/docs/git/"],
+      },
+      {
+        text: "SonarQuebe",
+        children: ["/docs/sonarqube/instalacao-inicial/", "/docs/sonarqube/utilizacao-rapida/"],
       },
     ],
   },

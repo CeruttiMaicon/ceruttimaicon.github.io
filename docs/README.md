@@ -7,13 +7,13 @@ title: Maicon Cerutti
 actions:
   - text: Javascript
     link: /portfolio/javascript/
-    type: primary
+    type: secondary
   - text: PHP
     link: /portfolio/php/
-    type: secondary
+    type: primary
   - text: Python
     link: /portfolio/python/
-    type: primary
+    type: secondary
 features:
   - title: Javascript
     details: JavaScript é uma linguagem de programação de alto-nível, que fortemente utilizo em desenvolvimento para web.
