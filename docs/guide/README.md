@@ -7,5 +7,4 @@ Também é um projeto que pode ser usado como base para fazer documentações de
 
 Você é livre para usufruir do conteúdo, e do projeto. Que pode ser encotrado em:
 
-- [GitHub - Projeto Vuepress](https://github.com/CeruttiMaicon/project-ceruttimaicon.github.io)
-- [GitHub - Projeto Estático](https://github.com/CeruttiMaicon/ceruttimaicon.github.io)
+- [GitHub - Projeto](https://github.com/CeruttiMaicon/ceruttimaicon.github.io)
