@@ -5,6 +5,7 @@ title: Linux
 
 # Documentações
 
+- [Exibir Asteriscos ao Digitar Senha](/docs/linux/senha/README.md)
 - [GRUB Sumiu?](/docs/linux/grub-sumiu/README.md)
 - [Instalação de programas](/docs/linux/install-programns/README.md)
 - [Tema do MAC no Linux Mint](/docs/linux/mint-tema-mac/README.md)
