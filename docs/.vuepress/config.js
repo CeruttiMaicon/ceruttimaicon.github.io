@@ -35,6 +35,7 @@ module.exports = {
           '/docs/python',
           '/docs/sonarqube',
           '/docs/vue-js',
+          '/docs/vuepress',
         ],
       },
       {
