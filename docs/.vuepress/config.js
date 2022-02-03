@@ -35,7 +35,6 @@ module.exports = {
           '/docs/python',
           '/docs/sonarqube',
           '/docs/vue-js',
-          '/docs/vuepress',
         ],
       },
       {
@@ -47,8 +46,12 @@ module.exports = {
         link: "https://www.linkedin.com/in/maicon-cerutti-516918114/",
       },
       {
-        text: "GitHub",
+        text: "Meu GitHub",
         link: "https://github.com/CeruttiMaicon",
+      },
+      {
+        text: "Este projeto",
+        link: "https://github.com/CeruttiMaicon/CeruttiMaicon.github.io",
       },
     ],
     sidebar: [
