@@ -31,6 +31,7 @@ module.exports = {
           '/docs/laravel',
           '/docs/linux',
           '/docs/lumen',
+          '/docs/nvim',
           '/docs/postgres',
           '/docs/python',
           '/docs/sonarqube',
