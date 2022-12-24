@@ -2,7 +2,7 @@
 name: "[ DOCS ]"
 about: Descreva o que precisa ser documentado
 title: "[ DOCS ] Descrição da Documentação"
-labels: docs
+labels: documentation
 assignees: ''
 
 ---
