@@ -1814,7 +1814,7 @@ __metadata:
 
 "fsevents@patch:fsevents@~2.3.2#~builtin<compat/fsevents>":
   version: 2.3.2
-  resolution: "fsevents@patch:fsevents@npm%3A2.3.2#~builtin<compat/fsevents>::version=2.3.2&hash=df0bf1"
+  resolution: "fsevents@patch:fsevents@npm%3A2.3.2#~builtin<compat/fsevents>::version=2.3.2&hash=18f3a7"
   dependencies:
     node-gyp: latest
   conditions: os=darwin
@@ -3140,9 +3140,9 @@ __metadata:
   linkType: hard
 
 "prismjs@npm:^1.26.0":
-  version: 1.26.0
-  resolution: "prismjs@npm:1.26.0"
-  checksum: 6de058930ce767d44d60322e625bbc255f5107c7bf82c441ade19a289358e01e35040cea0c17adf8f7b829f17aa48e2d84b40866b5b3f8c75a12c6b3f0ead231
+  version: 1.29.0
+  resolution: "prismjs@npm:1.29.0"
+  checksum: 007a8869d4456ff8049dc59404e32d5666a07d99c3b0e30a18bd3b7676dfa07d1daae9d0f407f20983865fd8da56de91d09cb08e6aa61f5bc420a27c0beeaf93
   languageName: node
   linkType: hard
 
@@ -3248,7 +3248,7 @@ __metadata:
 
 "resolve@patch:resolve@^1.20.0#~builtin<compat/resolve>":
   version: 1.21.0
-  resolution: "resolve@patch:resolve@npm%3A1.21.0#~builtin<compat/resolve>::version=1.21.0&hash=c3c19d"
+  resolution: "resolve@patch:resolve@npm%3A1.21.0#~builtin<compat/resolve>::version=1.21.0&hash=07638b"
   dependencies:
     is-core-module: ^2.8.0
     path-parse: ^1.0.7
