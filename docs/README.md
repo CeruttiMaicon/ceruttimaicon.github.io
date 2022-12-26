@@ -2,7 +2,7 @@
 home: true
 heroText: Maicon Cerutti
 tagline: "Minhas competências, anotações e documentações :)"
-heroImage: /images/perfil.jpg
+heroImage: /images/perfil.jpeg
 title: Portfólio
 actions:
   - text: Javascript

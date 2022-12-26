@@ -18,7 +18,7 @@ module.exports = {
     ],
   ],
   themeConfig: {
-    logo: "/images/perfil.jpg",
+    logo: "/images/perfil.jpeg",
     darkMode: true,
     searching: true,
     navbar: [
