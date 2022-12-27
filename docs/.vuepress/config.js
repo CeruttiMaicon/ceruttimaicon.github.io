@@ -1,4 +1,6 @@
-module.exports = {
+import { defaultTheme } from '@vuepress/theme-default'
+
+export default {
   lang: 'pt-br',
   description: "Minhas competências, anotações e documentações :)",
   title: "Maicon Cerutti",
@@ -17,7 +19,7 @@ module.exports = {
       "(adsbygoogle = window.adsbygoogle || []).push({  google_ad_client: <your code here>,  enable_page_level_ads: true });",
     ],
   ],
-  themeConfig: {
+  theme: defaultTheme({
     logo: "/images/perfil.jpeg",
     darkMode: true,
     searching: true,
@@ -123,7 +125,7 @@ module.exports = {
         children: ["/docs/sonarqube/instalacao-inicial/", "/docs/sonarqube/utilizacao-rapida/"],
       },
     ],
-  },
+  }),
   plugins: [
     [
       '@vuepress/plugin-search',
