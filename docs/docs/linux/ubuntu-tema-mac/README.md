@@ -10,13 +10,13 @@ Tenha certeza que seu ubuntu esteja atualizado.
 Verificar atualizações:
 
 ```bash
-$ sudo apt update
+sudo apt update
 ```
 
 Instalar atualzações:
 
 ```bash
-$ sudo apt dist-upgrade
+sudo apt dist-upgrade
 ```
 
 Primeiramente tenha o google chrome instalado no seu sistema operacional precisamos ter uma extenção do gnome instalada nele.
@@ -42,7 +42,7 @@ Ele gera um link no qual lhe dispõe das ferramentas a serem instaladas no Gnome
 Mas ainda precisamos instalar alguns programas.
 
 ```bash
-$ sudo apt-get install chrome-gnome-shell
+sudo apt-get install chrome-gnome-shell
 ```
 
 Agora entre no link da extenção que você baixou e você já terá livre acesso a fazer a instalação dos pacotes de customização do Gnome. Para baixar temas para o Gnome instale os seguintes app.

@@ -13,13 +13,13 @@ Utilize o [site oficial](https://laradock.io/getting-started/) para se guiar e f
 Clone o laradock no diretório raiz do projeto:
 
 ```bash
-$ git submodule add https://github.com/Laradock/laradock.git
+git submodule add https://github.com/Laradock/laradock.git
 ```
 
 Entre na pasta laradock e copie **env-example** para **.env**
 
 ```bash
-$ cp laradock/env-example laradock/.env
+cp laradock/env-example laradock/.env
 ```
 
 ### Utilização como Submodulo
@@ -29,8 +29,8 @@ $ cp laradock/env-example laradock/.env
 Clone o laradock como submodulo utilizando o seguinte comando:
 
 ```bash
-$ git submodule init
-$ git submodule update
+git submodule init
+git submodule update
 ```
 
 ## Configurações
@@ -38,7 +38,7 @@ $ git submodule update
 Entre na pasta laradock e copie **env-example** para **.env**
 
 ```bash
-$ cp laradock/env-example laradock/.env
+cp laradock/env-example laradock/.env
 ```
 
 > Você pode editar o **.env** arquivo para escolher quais softwares você deseja instalar no seu ambiente. Você sempre pode consultar o **docker-compose.yml** arquivo para ver como essas variáveis estão sendo utilizadas.
@@ -76,13 +76,13 @@ MYSQL_VERSION=5.7
 ```
 
 ```bash
-$ docker-compose up -d nginx mysql phpmyadmin portainer
+docker-compose up -d nginx mysql phpmyadmin portainer
 ```
 
 ### Usando Postgres
 
 ```bash
-$ docker-compose up -d nginx mysql phpmyadmin portainer
+docker-compose up -d nginx mysql phpmyadmin portainer
 ```
 
 ## Criando atalho de start do Laradock
@@ -117,10 +117,10 @@ Agora para executar o docker do seu projeto apenas utilize o atalho que você ac
 
 ```bash
 # Para start docker-compose
-$ project-name
+project-name
 
 # Para stop docker-compose
-$ project-name-stop
+project-name-stop
 ```
 
 ## Acessos

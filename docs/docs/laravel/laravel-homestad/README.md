@@ -34,7 +34,7 @@ Em seguida: execute em seu terminal de comando o seguinte. Ele vai baixar todos 
 (Este passo só será feito uma unica vez, então não se preocupe em ter que fazer novamente para uma segunda maquina virtual caso futuramente necessite)
 
 ```bash
-$ vagrant box add laravel/homestead
+vagrant box add laravel/homestead
 ```
 
 Ele vai pedir uma distro de virtualização lembre-se de escolher o Virtual Box.
@@ -42,7 +42,7 @@ Ele vai pedir uma distro de virtualização lembre-se de escolher o Virtual Box.
 Agora você pode instalar o Homestead clonando o repositório. Considere clonar o repositório em uma pasta dentro de seu diretório "home", pois a caixa Homestead servirá como host para todos os seus projetos do Laravel. Aqui ficará a sua maquina virtual. Entre no seu diretório home e execute o seguinte comando:
 
 ```bash
-$ git clone https://github.com/laravel/homestead.git ~/Homestead
+git clone https://github.com/laravel/homestead.git ~/Homestead
 ```
 
 Este não ira demorar muito.
@@ -50,7 +50,7 @@ Este não ira demorar muito.
 Entre na pasta Homestead que você acabou de baixar. Certifiquei-se de estar em uma versão funcional (no meu caso git checkout v7.18.0 funcionou)
 
 ```bash
-$ git checkout v7.18.0
+git checkout v7.18.0
 ```
 
 Execute o comando a seguir para criar o arquivo de configuração (Lembre-se de estar dentro do projeto que acabamos de baixar). O arquivo de configuração será colocado no diretório Homestead, e ele se chama "Homestead.yaml". (Execute de acordo com o seu sistema operacional).
@@ -131,19 +131,19 @@ Agora entre na pasta do Homestead que foi baixada e de o seguinte código do vag
 Para iniciar (a maquina virtual deve estar ligada para que a URL desejada funcione)
 
 ```bash
-$ vagrant up
+vagrant up
 ```
 
 Caso seja feita novas alterações no arquivo Homestead.yaml. a maquina virtual deverá ser reiniciada para colocar em vigor as alterações. E isso pode ser feito com comando a seguir
 
 ```bash
-$ vagrant reload --provision
+vagrant reload --provision
 ```
 
 Para desligar a maquina virtual e finalizar todos os processos nela.
 
 ```bash
-$ vagrant halt
+vagrant halt
 ```
 
 A principio deve ser uma configuração bem simples. Não esqueça de criar as pastas no Local Físico caso elas não tenham sido criadas ainda. E crie um index.php para fazer um teste, com o seguinte código.

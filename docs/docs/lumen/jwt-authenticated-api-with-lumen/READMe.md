@@ -36,7 +36,7 @@ $app->withEloquent();
 Crie a migration do bando de dados com o seguinte comando:
 
 ```bash
-$ php artisan make:migration create_users_table --create=users
+php artisan make:migration create_users_table --create=users
 ```
 
 Localize o arquivo de migração **database/migrations/\*\_create_users_table.php** e adicione colunas da tabela de necessidade (nome, email, senha); veja o código abaixo:
@@ -59,7 +59,7 @@ Localize o arquivo de migração **database/migrations/\*\_create_users_table.ph
 Execute a migração do banco de dados.
 
 ```bash
-$ php artisan migrate
+php artisan migrate
 ```
 
 Adicionar rota de registro que, como o nome indica; registrar usuários. Localize **routes/web.php** e insira o código necessário, como visto abaixo:
@@ -75,7 +75,7 @@ $router->group(['prefix' => 'api'], function () use ($router) {
 
 Como vamos usar o prefixo em todos os pontos de extremidade, para não causar repetição de cṍdigo, usaremos o agrupamento de rotas para fazer exatamente isso.
 
-Este método (**$router->post($uri, \$callback**); recebe um parâmetro $ url e $ callback. No campo **\$callback**, **AuthController** é a classe do Controller (criaremos essa classe daqui a pouco) e **register** é um método nessa classe.
+Este método (**$router->post($uri, \$callback**); recebe um parâmetro url e callback. No campo **\$callback**, **AuthController** é a classe do Controller (criaremos essa classe daqui a pouco) e **register** é um método nessa classe.
 
 Vamos criar nosso AuthControler.
 
@@ -136,7 +136,7 @@ Registre um usuário (use POSTMAN) com a rota **localhost:8000/api/register** e 
 ## Instalação do pacote de autenticação JWT
 
 ```bash
-$ composer require tymon/jwt-auth
+composer require tymon/jwt-auth
 ```
 
 Agora adicione o seguinte snippet ao **bootstrap/app.php** arquivo na seção provedores da seguinte maneira:
