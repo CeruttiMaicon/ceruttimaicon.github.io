@@ -8,7 +8,7 @@ Dentro do nosso projeto foi definido que toda imagem deverá ser armazenada em u
 Primeiramente execute o comando abaixo no seu terminal de comando (para instalar as dependências do S3):
 
 ```bash
-$ composer require league/flysystem-aws-s3-v3
+composer require league/flysystem-aws-s3-v3
 ```
 
 Depois disso entre no seu arquivo .env e edite as seguintes informações (essas informações são de seus arquivos do balde do S3 da Amazon, você consegue esssas informações todas no site da Amazon):
@@ -47,7 +47,7 @@ _Desta parte em diante pode ser usado para fazer o uploud de onde quiser_
 Agora execute o seguinte comando no seu terminal:
 
 ```bash
-$ php artisan make:model ImagesExemplo -m
+php artisan make:model ImagesExemplo -m
 ```
 
 Você acabou de criar uma Migration e uma Model.

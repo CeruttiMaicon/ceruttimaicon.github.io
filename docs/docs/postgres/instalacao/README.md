@@ -12,14 +12,14 @@ Passo a passo não muito detalhado da instalação do SGBD PostgreSQL 9.5 e a fe
 – Crie o arquivo /etc/apt/sources.list.d/pgdg.list e adicione a linha abaixo:
 
 ```bash
-$ deb http://apt.postgresql.org/pub/repos/apt/ bionic-pgdg main
+deb http://apt.postgresql.org/pub/repos/apt/ bionic-pgdg main
 ```
 
 – Importe a chave de assinatura do repositório e atualize as listas de pacotes
 
 ```bash
-$ wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | sudo apt-key add -
-$ sudo apt-get update
+wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | sudo apt-key add -
+sudo apt-get update
 ```
 
 ## Instalando o PostgreSQL 9.5
@@ -27,7 +27,7 @@ $ sudo apt-get update
 – Execute a linha abaixo
 
 ```bash
-$ sudo apt-get install postgresql-9.5
+sudo apt-get install postgresql-9.5
 ```
 
 ## Instalando o pgAdmin 4
@@ -35,7 +35,7 @@ $ sudo apt-get install postgresql-9.5
 – Execute a linha abaixo
 
 ```bash
-$ sudo apt-get install pgadmin4
+sudo apt-get install pgadmin4
 ```
 
 ## Criando o banco de dados
@@ -43,7 +43,7 @@ $ sudo apt-get install pgadmin4
 Primeiro precisamos acessar o prompt de comando do usuário postgres. Este usuário foi criado automaticamente na instalação do PostgresSQL.
 
 ```bash
-$ sudo su - postgres
+sudo su - postgres
 ```
 
 – Para criar o banco de dados:

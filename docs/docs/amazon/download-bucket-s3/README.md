@@ -10,16 +10,16 @@ Primeiramente é necessário fazer a instalação do AWS CLI, uma ferramenta da 
 ## Instalação das ferramentas necessárias.
 
 ```bash
-$ sudo apt-get install python2.7
-$ curl -O https://bootstrap.pypa.io/get-pip.py
-$ sudo python2.7 get-pip.py
-$ sudo pip install awscli
+sudo apt-get install python2.7
+curl -O https://bootstrap.pypa.io/get-pip.py
+sudo python2.7 get-pip.py
+sudo pip install awscli
 ```
 
 Se a instalação der certo execute este comando, e terá em vista manual com todos os comandos disponíveis.
 
 ```bash
-$ aws help
+aws help
 ```
 
 ## Configura AWS CLI
@@ -27,7 +27,7 @@ $ aws help
 A próxima etapa é configurar o AWS CLI
 
 ```bash
-$ aws configure
+aws configure
 ```
 
 Daqui em diante é necessário ter a chave de acesso dada do sistema da AWS, para ver estas configurações entre no sistema da AWS, e em seguida clique no seu nome de usuário, abrirá um menu dropdown, e vá na seguinte configuração "My Security Credentials".
@@ -45,14 +45,14 @@ Após esta configuração você já esta credenciado a trabalhar com a ferrament
 Para fazer o download do seu Bucket, crie uma pasta por terminal de comando, (dentro desta pasta os arquivos do Bucket seram baixados).
 
 ```bash
-$ mkdir ~/DownloadBucketS3
-$ cd ~/DownloadBucketS3
+mkdir ~/DownloadBucketS3
+cd ~/DownloadBucketS3
 ```
 
 E agora para baixar o conteúdo do bucket faça o seguinte comando:
 
 ```bash
-$ aws s3 sync s3://mybucket .
+aws s3 sync s3://mybucket .
 ```
 
 No lugar de **"mybucket"** coloque o nome real do bucket que você pretende baixar.

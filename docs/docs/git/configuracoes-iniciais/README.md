@@ -24,7 +24,7 @@ git config --global --replace-all user.email "email@dominio.com.br"
 ## Configurando chave SSH
 
 ```bash
-$ ssh-keygen
+ssh-keygen
 ```
 
 ENTER
@@ -32,7 +32,7 @@ ENTER
 ENTER
 
 ```bash
-$ cat ~/.ssh/id_rsa.pub
+cat ~/.ssh/id_rsa.pub
 ```
 
 Resultado esperado no terminal.

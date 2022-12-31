@@ -12,7 +12,7 @@ sudo gedit /etc/sudoers
 Procure a linha que contém o valor `Defaults env_reset` e adicione outra linha abaixo dela, com o conteúdo seguinte conteúdo:
 
 ```text
-Defaults pwfeedback;
+Defaults pwfeedback
 ```
 
 Salve e feche o arquivo. Depois, feche o Terminal.

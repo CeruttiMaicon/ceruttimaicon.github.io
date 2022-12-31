@@ -14,7 +14,7 @@ Vamos começar criando o model e a migration.
 **Terminal**
 
 ```bash
-$ php artisan make:model FilesRqpsAws -m
+php artisan make:model FilesRqpsAws -m
 ```
 
 Agora no seu arquivo Model que foi criado coloque os seguintes itens de protect:
@@ -62,7 +62,7 @@ Após ter feito as implementações acima . Rode:
 **Terminal**
 
 ```bash
-$ php artisan migrate:refresh
+php artisan migrate:refresh
 ```
 
 > (OBS) Este comando reseta o banco de dados e já cria a tabela cuja qual acabamos de fazer.
