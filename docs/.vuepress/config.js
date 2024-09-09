@@ -39,6 +39,7 @@ export default {
           '/docs/sonarqube',
           '/docs/vue-js',
           '/docs/vuepress',
+          '/docs/monitores',
         ],
       },
       {
