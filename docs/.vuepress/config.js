@@ -40,6 +40,7 @@ export default {
           '/docs/vue-js',
           '/docs/vuepress',
           '/docs/monitores',
+          '/docs/cedilha',
         ],
       },
       {
