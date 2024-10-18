@@ -66,6 +66,10 @@ Edite a ISO do Windows e adicione o arquivo `unattended.xml` na raiz dos arquivo
 
 ---
 
+## Links de Referência
+
+Caso queira criar o seu próprio arquivo `unattended.xml`, você pode utilizar o site [Schneegans](https://schneegans.de/windows/unattend-generator/). Leia a documentação oficial da Microsoft para mais informações sobre a criação de arquivos `unattended.xml`.
+
 ## Considerações Finais:
 
 ::: warning Aviso
