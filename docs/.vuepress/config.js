@@ -41,6 +41,7 @@ export default {
           '/docs/vuepress',
           '/docs/monitores',
           '/docs/cedilha',
+          '/docs/windows',
         ],
       },
       {
